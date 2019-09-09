@@ -1,10 +1,15 @@
 class ShoppingCart{
 
-  add(article){        	   
+  constructor(){
+    this._articles = [];
+  }
+
+  add(article){        	
+    this._articles.push(article);
   }
 
   get articles(){
-    return [];   
+    return this._articles;
   }
 
 }
