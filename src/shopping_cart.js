@@ -1,5 +1,7 @@
 class ShoppingCart{
 
+  add(article){        	   
+  }
 
 }
 
