@@ -1,0 +1,14 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "Example project to demonstrate the use of unit tests",
+  "main": "index.js",
+  "author": "Sebastien Boutet",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }  
+}
